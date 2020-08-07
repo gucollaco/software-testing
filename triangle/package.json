@@ -1,0 +1,14 @@
+{
+  "name": "triangle",
+  "version": "1.0.0",
+  "description": "testing triangles with jest",
+  "license": "MIT",
+  "author": "gucollaco",
+  "type": "module",
+  "dependencies": {
+    "jest": "^26.2.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
