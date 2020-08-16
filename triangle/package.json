@@ -4,7 +4,6 @@
   "description": "testing triangles with jest",
   "license": "MIT",
   "author": "gucollaco",
-  "type": "module",
   "dependencies": {
     "jest": "^26.2.2"
   },
