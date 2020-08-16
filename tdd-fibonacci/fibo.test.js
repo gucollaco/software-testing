@@ -17,4 +17,9 @@ describe('Fibonacci generator lib tests', function() {
         expect(executeFiboZero).toThrowError(/Parameter must be greater than 0/)
         expect(executeFiboNegative).toThrowError(/Parameter must be greater than 0/)
     })
+    test('Return default value [0] in case param equals 1', function() {
+        const fiboArray = fibo(1)
+        expect(fiboArray).toEqual([0])
+    })
 })
+
