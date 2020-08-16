@@ -1,0 +1,18 @@
+{
+  "name": "tdd-fibonacci",
+  "version": "1.0.0",
+  "description": "test driven development of a fibonacci array generator",
+  "license": "MIT",
+  "author": "gucollaco",
+  "type": "module",
+  "dependencies": {
+    "jest": "^26.2.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gucollaco/software-testing.git"
+  }
+}
