@@ -1,9 +1,10 @@
+const { isInteger, isArray }  = require('lodash')
 const fibo  = require('./fibo')
 
 describe('Fibonacci generator lib tests', function() {
     test('Check if an array is returned', function() {
         const fiboArray = fibo(6)
-        expect(Array.isArray(fiboArray)).toBe(true)
+        expect(isArray(fiboArray)).toBe(true)
     })
     test('Assert the parameter given is an integer', function() {
         const executeFiboString = () => fibo('3')
@@ -20,6 +21,10 @@ describe('Fibonacci generator lib tests', function() {
     test('Return default value [0] in case param equals 1', function() {
         const fiboArray = fibo(1)
         expect(fiboArray).toEqual([0])
+    })
+    test('Assert the returned array has only integer values', function() {
+        const fiboArray = fibo(5)
+        for (const value of fiboArray) expect(isInteger(value)).toBe(true)
     })
 })
 
