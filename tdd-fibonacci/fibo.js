@@ -1,13 +1,17 @@
+const { isInteger, gt, isEqual }  = require('lodash')
+
 const fibo = (length, currentArray = [0, 1]) => {
-    if (!Number.isInteger(length)) throw new Error('Parameter must be an integer')
+    if (!isInteger(length)) throw new Error('Parameter must be an integer')
 
-    if (length <= 0) throw new Error('Parameter must be greater than 0')
+    if (!gt(length, 0)) throw new Error('Parameter must be greater than 0')
 
-    if (length === currentArray.length) return currentArray
+    if (isEqual(length, currentArray.length)) return currentArray
 
-    const newArray = [...currentArray, 0]
+    const n2 = currentArray[currentArray.length - 2]
+    const n1 = currentArray[currentArray.length - 1]
+    const n = n1 + n2
 
-    return fibo(length, newArray)
+    return fibo(length, [...currentArray, n])
 }
 
 module.exports = fibo

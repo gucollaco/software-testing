@@ -4,9 +4,9 @@
   "description": "test driven development of a fibonacci array generator",
   "license": "MIT",
   "author": "gucollaco",
-  "type": "module",
   "dependencies": {
-    "jest": "^26.2.2"
+    "jest": "^26.2.2",
+    "lodash": "^4.17.20"
   },
   "scripts": {
     "test": "jest"
