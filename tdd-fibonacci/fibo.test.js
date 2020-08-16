@@ -5,4 +5,8 @@ describe('Fibonacci generator lib tests', function() {
         const fiboArray = fibo(6)
         expect(Array.isArray(fiboArray)).toBe(true)
     })
+    test('Assert the parameter given is an integer', function() {
+        const executeFibo = () => fibo('3')
+        expect(executeFibo).toThrowError(/Parameter must be an integer/)
+    })
 })
