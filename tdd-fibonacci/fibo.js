@@ -1,9 +1,9 @@
-const fibo = (length) => {
-    const fiboArray = []
+const fibo = (length, currentArray=[0,1]) => {
+    if(length === currentArray.length) return currentArray
 
-    for(let i = 0; i < length; i++) fiboArray.push(i)
+    const newArray = [...currentArray, 0]
 
-    return fiboArray
+    return fibo(length, newArray)
 }
 
 module.exports = fibo
