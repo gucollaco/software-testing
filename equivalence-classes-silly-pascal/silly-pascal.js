@@ -6,4 +6,4 @@ const isValid = (input) => {
     return true
 }
 
-module.exports = isValid
+module.exports = { isValid }
