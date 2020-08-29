@@ -1,0 +1,17 @@
+{
+  "name": "equivalence-classes-silly-pascal",
+  "version": "1.0.0",
+  "description": "equivalence classes usage for a simple string validator",
+  "license": "MIT",
+  "author": "gucollaco",
+  "dependencies": {
+    "jest": "^26.2.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gucollaco/software-testing.git"
+  }
+}
