@@ -1,0 +1,19 @@
+{
+    "name": "structural-test-income-tax",
+    "version": "1.0.0",
+    "description": "structural tests for a simple income tax calculator",
+    "license": "MIT",
+    "author": "gucollaco",
+    "dependencies": {
+      "jest": "^26.2.2"
+    },
+    "scripts": {
+      "test": "jest",
+      "test:coverage": "jest --coverage"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gucollaco/software-testing.git"
+    }
+  }
+  
