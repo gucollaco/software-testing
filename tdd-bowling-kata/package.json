@@ -5,8 +5,7 @@
   "license": "MIT",
   "author": "gucollaco",
   "dependencies": {
-    "jest": "^26.2.2",
-    "lodash": "^4.17.20"
+    "jest": "^26.2.2"
   },
   "scripts": {
     "test": "jest"
