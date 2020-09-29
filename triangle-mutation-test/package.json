@@ -1,0 +1,22 @@
+{
+  "name": "triangle",
+  "version": "1.0.0",
+  "description": "mutation testing to test triangles with stryker",
+  "license": "MIT",
+  "author": "gucollaco",
+  "dependencies": {
+    "jest": "^26.2.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gucollaco/software-testing.git"
+  },
+  "devDependencies": {
+    "@stryker-mutator/core": "^3.3.1",
+    "@stryker-mutator/javascript-mutator": "^3.3.1",
+    "@stryker-mutator/jest-runner": "^3.3.1"
+  }
+}
