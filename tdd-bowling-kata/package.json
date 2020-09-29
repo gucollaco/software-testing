@@ -1,0 +1,18 @@
+{
+  "name": "tdd-fibonacci",
+  "version": "1.0.0",
+  "description": "test driven development of uncle bob's bowling game kata",
+  "license": "MIT",
+  "author": "gucollaco",
+  "dependencies": {
+    "jest": "^26.2.2",
+    "lodash": "^4.17.20"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gucollaco/software-testing.git"
+  }
+}
