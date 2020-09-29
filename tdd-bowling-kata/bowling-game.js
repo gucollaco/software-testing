@@ -1,14 +1,16 @@
 class BowlingGame {
-    // sets as 0 in case no value is given
-    constructor(a=0, b=0, c=0) {
-        this.a = a
-        this.b = b
-        this.c = c
+    constructor(rolls=[], score=0, curRoll=0) {
+        this.rolls = rolls
+        this.scores = score
+        this.curRoll = curRoll
     }
 
-    // returns the triangle type according to the sides given
-    roll() {
-        return 0
+    score() {
+    }
+
+    roll(pins) {
+        this.score += pins
+        this.rolls[this.curRoll++] = pins
     }
 }
 
