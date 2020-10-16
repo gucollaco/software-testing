@@ -9,7 +9,7 @@ describe('First example - switching the order would cause a failure', function()
     })
 })
 
-describe('Second example - tests not isolated', function() {
+describe('Second example - switching the order would cause a failure', function() {
     const db = [5] // considerando como se fossem dados de uma tabela do banco de dados
     test('Removes a result from the database table', function() {
         const element = db.shift(db)
