@@ -1,0 +1,19 @@
+{
+    "name": "first-harmful-tests",
+    "version": "1.0.0",
+    "description": "tests that goes agains the FIRST principles",
+    "license": "MIT",
+    "author": "gucollaco",
+    "dependencies": {
+      "jest": "^26.2.2"
+    },
+    "scripts": {
+      "test": "jest",
+      "test:coverage": "jest --coverage"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gucollaco/software-testing.git"
+    }
+  }
+  
